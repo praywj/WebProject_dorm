@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+   *{
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	text-decoration:none;	
+	font-size: 18px;
+	font-family:"Microsoft YaHei";
+} 
+ * html,* html body{background-image:url(abup:blank);background-attachment:fixed;} 
+img{border:none;} 
+a{text-decoration:none;}
+#logintable{
+	margin:0 auto;
+	margin-top:50px;
+	font-size:17px;
+	
+}
+#logintable tr{
+	line-height:50px;
+}
+#logintitle{
+	margin-top:130px;
+	font-family:"楷体"; 
+	font-size:35px;
+}
+#form{
+	position:relative;
+	
+}
+#filter{
+	position:absolute;
+	margin-left:450px;
+	top:-20px;
+	width:490px;
+	height:335px;
+	background-color:white;
+	filter:alpha(opacity=50); 
+	 -moz-opacity:0.5; 
+	 opacity: 0.5; 
+	z-index:-10;
+	border-radius:10px;
+} 
+
+#loginname{
+	height:35px;
+}
+/* 首页 */
+.head{height: 50px; background-color: #2a2c2e; padding: 0 10px;}
+.logo{width: 100px; height: 100%; }
+.head_text{height: 100%; font:20px/50px "微软雅黑"; color: #FFF; }
+.clearfix:after,
+.clearfix:before{content: ""; display: table;}
+.clearfix:after{ clear: both;}
+.clearfix{zoom:1;}
+.operation_user{font:12px/40px "微软雅黑";padding: 0 60px; background-color: rgb(225, 224, 224);height:40px;}
+.fl{float: left;}
+.fr{float: right;}
+.link span{font-family: "宋体"; font-weight: 300; padding: 0 10px;}
+.link a{color: #000;}
+.icon{padding-left: 18px; background-position: left center; background-repeat: no-repeat;}
+.icon_i{background-image: url(images/i.png);}
+.icon_j{background-image: url(images/j.png);}
+.icon_t{background-image: url(images/t.png);}
+.icon_n{background-image: url(images/n.png);}
+.icon_e{background-image: url(images/e.png);}
+#indextable{margin-top:30px;}
+#indextable tr{height:35px;line-height:35px;}
+#indextable tr th{width:35%;}
+#indextable tr td{padding-left:150px;}
+.bodys{height:797px;width:100%;padding-top:15px;background-image: url(images/bg4.png);}
+.bodys-bg{ width:1260px; height:790px;margin:0 auto;padding-top:15px;background: url(./images/bag.png);}
+#bodys-1{ width:1260px;margin:0 auto;height:790px;}
+.bodys-left{ width:315px;float:left;}
+.bodys-left-top{width:315px;height:55px;line-height:55px;color:white;background:url(./images/pic1.png);text-indent: 50px;padding-top:5px;border-radius: 8px;}
+.bodys-left-top h1{width:308px;height:47px;margin:0 auto;border:1px solid #67acf2;}
+.bodys-left-list{float:left;margin-top:20px;} /*   background:-moz-linear-gradient(left -20deg,#a1a5aa,#b5babf);  */
+.bodys-left-border{float:left;height:700px;width:1px;box-shadow:5px 0px 5px #a3a9ae;}
+.bodys-nav li a{margin-top:1px;display:block;text-decoration: none; color:black;width: 311px;height:33px;text-indent: 50px;line-height: 33px;}
+.bodys-nav li a:hover,.hov{background:url(./images/pic.png);color:white;}
+.bodys-right{float:right;width:915px;padding-right: 15px;}
+.bodys-right-top{width:915px;border-bottom:4px solid #a8a8a8;height:70px;line-height: 70px;text-align:right; }
+.bodys-right-list{width:915px;margin:0 auto;margin-bottom:10px;}
+.bodys-right-list li{position:relative;border-bottom: 2px solid #e0e0de;width: 915px;height:57px;line-height: 59px;}
+.bodys-right-list li a{text-indent: 40px;float:left;text-decoration: none;color:black; display: block;width:700px; }
+.bodys-right-last{width:435px;height:40px;margin-top:40px;background-color: #14449f;}
+.bodys-right-last{color:white;text-align: center;line-height:40px;}
+.bodys-right-last a{text-decoration: none;color:white;}
+/*尾部 */
+
+#footer-2{background: #031118;overflow-x: hidden;}
+#footer-3{width:453px ;height:146px ;float: left;margin-left:245px ;margin-top:9px ;}
+#footer-3 img{display: block;float: left;}
+.footer-3-1 {  margin-top: 10px;}
+.footer-3-2 {margin-left: 10px;margin-top: 18px;}
+.footer-3-3{margin-top: 20px;margin-left: 18px;}
+.footer-3-4{margin-top: 19px;margin-left: 48px;}
+.footer-3-5{margin-top: 20px;margin-left:48px; }
+#footer-2 p{color: #FFFFFF;font-family:"Microsoft YaHei"; font-size:14px;  margin-bottom:14px; display:block; margin-top:30px;line-height: 25px;}
+
+#maintable{width:900px;}
+#maintable tr td{text-align:center;}
+
+/*update*/
+#update{background:#E7EBFF;height:800px;wodth:100%;}
+#updateform{magin:0 auto;background:url(./images/update.png);width:600px;height:400px;top:200px;}
+#updatetable{margin-top:45px;position:absolute;margin-left:150px;}
+#updatetable tr{height:35px;}
+
+
+/*insert*/
+#insert{background:#E7EBFF;height:800px;wodth:100%;}
+#insertform{magin:0 auto;background:url(./images/insert.jpg);width:600px;height:400px;top:200px;}
+#inserttable{margin-top:45px;position:absolute;margin-left:150px;}
+#inserttable tr{height:35px;}
+
